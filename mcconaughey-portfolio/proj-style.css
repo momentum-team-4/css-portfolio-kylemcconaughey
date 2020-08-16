@@ -14,19 +14,23 @@ img {
 
 .nav-menu {
     list-style: none;
-    display: flex;
+    display: inline-flex;
     flex-flow: nowrap;
     justify-content: space-between;
     width: 25%;
-    background-color: lightskyblue;
+    margin: 2rem;
+
 }
 
-.nav-menu li {
+.nav-menu a {
     padding: 0.5rem;
-    border: 2.5px solid black;
-    margin: 1rem;
+    /* border: 2.5px solid black; */
+    background-color: grey;
+    margin: 2rem;
     margin-left: 0;
-    border-radius: 15%;
+    /* border-radius: 15%; */
+    text-decoration: none;
+    color: white;
 }
 
 .project {
@@ -40,8 +44,9 @@ img {
     width: 50%;
     height: auto;
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: sans-serif;
+    padding: 5rem;
     /* white-space: nowrap; */
 }
 
@@ -52,15 +57,15 @@ img {
         rgba(100, 100, 100, 0.3)
       ), url("/Users/kylemcconaughey/Momentum\ Learning/css-dog-adoption-kylemcconaughey/starter_files/images/golden-lab.jpg") no-repeat center/cover;
       background-color: black;
-    width: 30%;
     min-width: 300px;
+    max-width: 350px;
     border: 1px solid black;
     border-radius: 10%;
 }
 
 .hvs-card:hover {
     background: url("/Users/kylemcconaughey/Momentum\ Learning/css-dog-adoption-kylemcconaughey/starter_files/images/golden-lab.jpg") no-repeat center/cover;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
 }
 
 .gs-card {

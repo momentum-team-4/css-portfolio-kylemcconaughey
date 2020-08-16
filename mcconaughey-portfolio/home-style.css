@@ -4,8 +4,29 @@
     padding: 0;
 }
 
+/* CSS HEX */
+/*
+wisteria: #ca96d8ff;
+beau-blue: #bfdbf7ff;
+indigo-dye: #053c5eff;
+blue-jeans: #6bb2e6ff;
+hookers-green: #607b68ff;
+*/
+
 .body {
     margin: 1%;
+    background-color: #bfdbf7ff;
+}
+
+.header {
+    color: #053c5eff;
+
+}
+
+.headshot img {
+    width: 525%;
+    max-width: 360px;
+    height: auto;
 }
 
 .nav-menu {
@@ -13,13 +34,20 @@
     display: flex;
     flex-flow: nowrap;
     justify-content: space-between;
-    width: 25%;
+    width: 50%;
+    max-width: 720px;
+    margin: 2rem;
+    margin-left: 0;
+
 }
 
-.nav-menu li {
+.nav-menu a {
     padding: 0.5rem;
-    border: 2.5px solid black;
-    margin: 1rem;
+    /* border: 2.5px solid black; */
+    background-color: grey;
+    margin: 2rem;
     margin-left: 0;
-    border-radius: 15%;
+    /* border-radius: 15%; */
+    text-decoration: none;
+    color: white;
 }
